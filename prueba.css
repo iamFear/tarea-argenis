@@ -1,0 +1,54 @@
+.text {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #d5a120;
+}
+img {
+  box-shadow: 5px 3px 7px #d5a120;
+}
+label {
+  box-shadow: 2px 2.5px 5px #410c4f;
+}
+a {
+  display: inline-block;
+  color: #d5a120;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #d5a120;
+}
+a:hover {
+  box-shadow: 3px 3px 3px;
+  background-color: #d5a120;
+  color: #fff;
+}
+a:active {
+  background-color: #fff;
+  color: #d5a120;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body h1 {
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif color;
+  color: #000;
+}
+body h1::before {
+  content: "Padre Rico Padre Pobre";
+  width: 100px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 5px solid #d5a120;
+  text-decoration: none;
+  animation: slide 8s linear infinite;
+  overflow: hidden;
+}
